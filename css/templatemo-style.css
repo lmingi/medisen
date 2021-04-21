@@ -10,6 +10,7 @@ Highlight color (pink)		: #c66995
 */
 
 
+
 .sub-header {
 	background-color: black;
 	height: 35px;
@@ -24,8 +25,6 @@ Highlight color (pink)		: #c66995
 	padding: 0px 20px;
 }
 
-.sub-header ul.left-info li:last-child {
-}
 
 .sub-header ul.left-info li i {
 	margin-right: 10px;
@@ -46,10 +45,6 @@ Highlight color (pink)		: #c66995
 	padding: 0px 20px;
 
 }
-
-.sub-header ul.right-icons li:first-child {
-}
-
 .sub-header ul.right-icons li a {
 	color: #fff;
 	transition: all 0.3s;
@@ -605,9 +600,12 @@ footer p { color: white; }
 
 #google-map { height: 600px; }
 
+
 @media screen and (max-width: 1080px) {
     .tm-tab-link-li { width: 25%; }
+    
 }
+
 
 @media screen and (max-width: 1033px) {
     .tm-slideshow-description { width: 55%; }
@@ -618,6 +616,9 @@ footer p { color: white; }
         padding: 15px 20px;
         background: white;
     }
+	.sub-header {
+		display: none;
+	}
 
     .tm-top-bar, .tm-top-bar-bg { height: auto; }
 
@@ -660,7 +661,9 @@ footer p { color: white; }
 
 @media screen and (max-width: 986px) {
     .tm-slideshow-section { flex-direction: column; }
-    
+    .sub-header {
+		display: none;
+	}
     .tm-slideshow,
     .tm-slideshow-description {
         width: 100%;
@@ -696,6 +699,9 @@ footer p { color: white; }
 
 @media screen and (max-width: 860px) {
     .tm-recommended-description-box { width: 350px; }
+    .sub-header {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 826px) {
@@ -708,6 +714,9 @@ footer p { color: white; }
         max-width: 600px;
         margin: 0 auto 15px;
     }
+    .sub-header {
+		display: none;
+	}
 
     .tm-recommended-place {
         display: block;
@@ -754,13 +763,20 @@ footer p { color: white; }
 
     .tm-recommended-description-box { width: 270px; }
 }
+@media (max-width: 768px) {
+    .sub-header {
+		display: none;
+	}
+}
 
 @media screen and (max-width: 767px) {
     .tm-banner-row {
         padding-top: 80px;
         padding-bottom: 50px;
     }
-
+	.sub-header {
+		display: none;
+	}
     .tm-banner-header { margin-top: 100px; }
 
     .tm-form-group-1,
@@ -768,4 +784,5 @@ footer p { color: white; }
     .tm-form-group-3 {
         width: 100%;
     }    
+    
 }
