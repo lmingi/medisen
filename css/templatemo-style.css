@@ -11,6 +11,9 @@ Highlight color (pink)		: #c66995
 
 
 
+.logo{width:100vw;
+    height:100vh;}
+
 .sub-header {
 	background-color: black;
 	height: 35px;
@@ -134,11 +137,11 @@ p:last-child { margin-bottom: 0; }
 .tm-top-bar.active .navbar-brand { font-size: 1.4rem; }
 
 .tm-top-bar .navbar-brand img {
-    width: 60px;
+    width: 220px;
     height: auto;
 }
 
-.tm-top-bar.active .navbar-brand img { width: 40px; }
+.tm-top-bar.active .navbar-brand img { width: 220px; }
 .tm-top-bar-bg { height: 119px; }
 .tm-top-bar a { color: black; }
 
@@ -208,6 +211,15 @@ p:last-child { margin-bottom: 0; }
     overflow: hidden;
 }
 
+.tm-banner-overlay{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 1000;
+    letter-spacing: 2.5px;
+    color: white;
+    overflow: hidden;
+}
 .tm-banner-overlay h4{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -224,24 +236,26 @@ p:last-child { margin-bottom: 0; }
     min-height: 720px;
     position: relative;
 }
+.tm-banner-bg1 {
+    background: url(../img/jehyu.png) center top no-repeat;    
+    min-height: 720px;
+    position: relative;
+}
+
+.tm-banner-bg2 {
+    background: url(../img/cellbank.jpg) center top no-repeat;    
+    min-height: 720px;
+    position: relative;
+}
 .tm-banner-row { 
     position: relative;
     z-index: 100;
     justify-content: center;
     padding-top: 100px;
 }
-.tm-banner-bg1 {
-    background: url(../img/banner1.jpg) center top no-repeat;    
-    min-height: 720px;
-    position: relative;
-}
-.tm-banner-row1 { 
-    position: relative;
-    z-index: 100;
-    justify-content: center;
-    padding-top: 100px;
-}
+
 .tm-banner-row-header { text-align: center; }
+
 .tm-down-arrow-link { 
     color: white;
     background-color: #69c6ba;
@@ -640,12 +654,12 @@ footer p { color: white; }
     }
 
     .tm-top-bar.active .navbar-expand-lg .navbar-nav .nav-link,
-    .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link { padding: 15px; }
+    .tm-top-bar .navbar-expand-lg .navbar-nav .nav-link { padding: 10px; }
 
     .tm-top-bar .navbar-brand { font-size: 1.4rem; }
 
     .tm-top-bar .navbar-brand img {
-        width: 60px;
+        width: 100px;
         height: auto;
     }
 
@@ -694,10 +708,20 @@ footer p { color: white; }
         margin-left: 0;
         float: right;
     }
+    
+    .tm-top-bar .navbar-brand img {
+        width: 100px;
+        height: auto;
+    }
 
 }
 
 @media screen and (max-width: 860px) {
+    
+    .tm-top-bar .navbar-brand img {
+        width: 100px;
+        height: auto;
+    }
     .tm-recommended-description-box { width: 350px; }
     .sub-header {
 		display: none;
@@ -762,11 +786,21 @@ footer p { color: white; }
     }
 
     .tm-recommended-description-box { width: 270px; }
+    
+    .tm-top-bar .navbar-brand img {
+        width: 100px;
+        height: auto;
+    }
 }
 @media (max-width: 768px) {
     .sub-header {
 		display: none;
 	}
+    
+    .tm-top-bar .navbar-brand img {
+        width: 100px;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -779,6 +813,11 @@ footer p { color: white; }
 	}
     .tm-banner-header { margin-top: 100px; }
 
+    .tm-top-bar .navbar-brand img {
+        width: 100px;
+        height: auto;
+    }
+
     .tm-form-group-1,
     .tm-form-group-2,
     .tm-form-group-3 {
@@ -786,3 +825,169 @@ footer p { color: white; }
     }    
     
 }
+
+
+/* WHY MEDISEN */
+.wcm{
+    margin: 30px 0px;
+    font-size:2.5vw;
+    color: black;
+    text-align:center;
+    padding-top:1.5vh;
+    padding-bottom:1.5vh;
+	font-size: 40px;
+	font-weight: 500;
+}
+.floatcl{overflow:hidden;}
+.simenu{text-align:center;}
+.simage{width:12vw;
+       padding-left:1vw;
+       padding-right:1vw;}
+.himage{    margin: 30px 0px;
+    font-size:2.5vw;
+    color: black;
+    text-align:center;
+    padding-top:1.5vh;
+    padding-bottom:1.5vh;
+	font-size: 40px;
+	font-weight: 500;
+}
+.bimenu{text-align:center;
+       padding-bottom:8.5vh;}
+.bimage{width:12vw;
+       padding-left:1vw;
+       padding-right:1vw;
+       padding-bottom:1.5vh;}
+.wcmt{width:100vw;
+    font-weight: 500;
+     margin-bottom: 30px;
+     padding-left:2.5vw;
+     padding-right:2.5vw;}
+.wcmt > tr,td,th{padding:0.5vw;
+                font-size:1.3vw;}
+.wcmedisen{width:100vw;}
+.wcmedi{text-align:center;
+    margin-bottom: 30px;
+       font-size:1.2vw;
+       padding-bottom:1.5vh;}
+       th{background-color:#CCCCCC;}
+       td{background-color:#999999;}
+       td>a{color:#000099;}
+       .mediw{width:10vw;
+              height:3.2vh;}
+       .wcmw{font-weight:bold;
+             font-size:2vw;}
+       .wcmediw{padding-top:1.5vh;
+                padding-bottom:1.5vh;
+                text-align:center;}
+              }
+   
+
+/* CELL BANKING */
+.wpeoguf{width:100vw;}
+.service{width:100vw;}
+.wontcell{width:60vw;}
+.sells{width:100vw;}
+.cells{width:30vw;
+       padding-left:5vw;
+       float:left;
+       padding-right:3.5vw;}
+.cellsf{width:100vw;}
+.stemcells{width:100vw;
+           padding-bottom:2.5vh;}
+.keypoint{width:60vw;
+          padding-right:5vw;
+          height:50vh;}
+.logow{width:20vw;
+       height:5vh;
+       padding-left:2.5vw;}
+.sellf{font-size:2.7vw;}
+.fwa{font-size:3vw;
+     padding-left:5vw;}
+.boxf{font-size:3vw;
+      color:#ffffff;
+      font-weight:bold;}
+.sellfm{font-size:1.5vw;
+        padding-left:5vw;
+        padding-top:1vh;}
+.sent{width:100vw;
+      height:50vh;
+      background-size:cover;
+      padding-top:8vh;
+      padding-bottom:3vh;
+      padding-left:10vw;
+      background-image:url(data/sellbangking.png);}
+.bestc{font-size:2.5vw;
+       padding-left:2.5vw;}
+.medisell{font-size:2.5vw;
+          font-weight:bold;}
+.hans{font-size:2vw;
+      color:blue;}
+.mediz{font-size:1.3vw;
+       padding-top:1.5vh;}
+.boxl{float:left;
+      padding-top:2.5vh;
+      padding-left:10vw;
+      padding-right:10vw;}
+.boxr{padding-right:10vw;
+      padding-top:2.5vh;}
+.orange{font-size:2.5vw;
+        float:none;
+        text-align:center;
+        color:#ff3300;}
+.cle{overflow:hidden;}
+.wonth{font-size:3vw;
+       float:left;
+       padding-top:7.5vh;
+       padding-right:10vw;
+       padding-left:12.5vw;}
+.wonts{overflow:hidden;}
+.logowm{width:10vw;
+        height:4.3vh;
+        padding-left:27.5vw;}
+.wosell{padding-left:35vw;
+        padding-bottom:1.5vh;
+        font-size:1.5vw;}
+.wontse{font-size:2.5vw;
+        color:purple;}
+.cellshead{font-weight:bold;
+           font-size:2.5vw;
+           padding-bottom:1vh;}
+.cellsbm{font-size:1.5vw;
+         padding-right:5vw;}
+.clcells{overflow:hidden;}
+.nkcellsf{font-weight:bold;
+          font-size:3vw;
+          padding-left:5vw;
+          padding-top:1vh;}
+.nkcellsbn{font-size:1.4vw;
+           padding-left:10vw;
+           padding-right:5vw;
+           padding-bottom:1vh;}
+.stcells{background-image:url(data/stemcells.png);
+         background-size:cover;
+         padding-top:10vh;
+         padding-bottom:2.5vh;
+         margin-bottom:2.5vh;}
+.stcellshead{font-weight:bold;
+             font-size:2vw;
+             padding-left:10vw;
+             color:#ffffff;}
+.stcellsbm{font-size:1.3vw;
+           padding-left:10vw;
+           color:#ffffff;}
+.stcellsbt{overflow:hidden;}
+.stcellsbox{float:left;
+            padding-left:5vw;
+            padding-right:5vw;}
+.stcellstop{font-size:2.5vw;
+            padding-bottom:0.5vh;
+            padding-top:1.5vh;}
+.stcellsbot{font-size:2.75vw;
+            color:purple;}
+.purple{padding-left:25vw;
+        font-size:2vw;
+        color:purple;
+        padding-top:1vh;
+        padding-bottom:1.5vh;}
+.kp{font-weight:bold;}
