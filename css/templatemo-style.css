@@ -211,13 +211,13 @@ p:last-child { margin-bottom: 0; }
     overflow: hidden;
 }
 
-.tm-banner-overlay{
+.tm-banner-overlay2{
     margin-bottom: 30px;
     text-transform: uppercase;
     font-size: 44px;
-    font-weight: 1000;
+    font-weight: 800;
     letter-spacing: 2.5px;
-    color: white;
+    color: black;
     overflow: hidden;
 }
 .tm-banner-overlay h4{
@@ -246,6 +246,20 @@ p:last-child { margin-bottom: 0; }
     background: url(../img/cellbank.jpg) center top no-repeat;    
     min-height: 720px;
     position: relative;
+}
+
+.tm-banner-bg3 {
+    background: url(../img/stem.jpg) center top no-repeat;    
+    min-height: 720px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.tm-banner-bg4 {
+    background: url(../img/nkcell.jpg) center top no-repeat;    
+    min-height: 720px;
+    position: relative;
+    margin-bottom: 30px;
 }
 .tm-banner-row { 
     position: relative;
@@ -905,7 +919,7 @@ footer p { color: white; }
 .fwa{font-size:3vw;
      padding-left:5vw;}
 .boxf{font-size:3vw;
-      color:#ffffff;
+      color:black;
       font-weight:bold;}
 .sellfm{font-size:1.5vw;
         padding-left:5vw;
@@ -922,7 +936,8 @@ footer p { color: white; }
 .medisell{font-size:2.5vw;
           font-weight:bold;}
 .hans{font-size:2vw;
-      color:blue;}
+      color:darkblue;
+    font-weight: bold;}
 .mediz{font-size:1.3vw;
        padding-top:1.5vh;}
 .boxl{float:left;
@@ -934,8 +949,11 @@ footer p { color: white; }
 .orange{font-size:2.5vw;
         float:none;
         text-align:center;
-        color:#ff3300;}
-.cle{overflow:hidden;}
+        color:darkred;
+        font-weight: bold;
+    margin-bottom: 100px;}
+.cle{overflow:hidden;
+margin: 50px 0px;}
 .wonth{font-size:3vw;
        float:left;
        padding-top:7.5vh;
@@ -944,18 +962,21 @@ footer p { color: white; }
 .wonts{overflow:hidden;}
 .logowm{width:10vw;
         height:4.3vh;
-        padding-left:27.5vw;}
+        padding-left:27.5vw;
+    margin-top: 50px;}
 .wosell{padding-left:35vw;
         padding-bottom:1.5vh;
-        font-size:1.5vw;}
+        font-size:1.5vw;
+    margin-bottom: 60px;}
 .wontse{font-size:2.5vw;
-        color:purple;}
+        color:purple;
+    font-weight: bold;}
 .cellshead{font-weight:bold;
-           font-size:2.5vw;
-           padding-bottom:1vh;}
+           font-size:2.5vw;}
 .cellsbm{font-size:1.5vw;
          padding-right:5vw;}
-.clcells{overflow:hidden;}
+.clcells{overflow:hidden;
+margin-bottom: 50px;}
 .nkcellsf{font-weight:bold;
           font-size:3vw;
           padding-left:5vw;
@@ -963,12 +984,9 @@ footer p { color: white; }
 .nkcellsbn{font-size:1.4vw;
            padding-left:10vw;
            padding-right:5vw;
-           padding-bottom:1vh;}
-.stcells{background-image:url(data/stemcells.png);
-         background-size:cover;
-         padding-top:10vh;
-         padding-bottom:2.5vh;
-         margin-bottom:2.5vh;}
+           padding-bottom:1vh;
+        margin-bottom: 50px;}
+
 .stcellshead{font-weight:bold;
              font-size:2vw;
              padding-left:10vw;
@@ -989,5 +1007,152 @@ footer p { color: white; }
         font-size:2vw;
         color:purple;
         padding-top:1vh;
-        padding-bottom:1.5vh;}
+        padding-bottom:1.5vh;
+    margin-bottom: 70px;}
 .kp{font-weight:bold;}
+
+/*stem cell*/
+
+
+.stcell1box{background-image:url(data/stem.png);
+    background-size:cover;
+    padding-bottom:10vmin;
+    padding-left:20vmin;
+    padding-top:20vmin;}
+.stcell1head{font-size:3.5vmin;
+     color:#ffffff;}
+.stcell1top{font-weight:bold;
+    font-size:6vmin;
+    color:#ffffff;}
+.stcell1bot{width:74vmin;
+    padding-top: 10px;
+    height:8vmin;
+    color: white;
+    font-size:3vmin;}
+.stcell2box{overflow:hidden;
+    padding-top:3vmin;
+    padding-bottom:3vmin;}
+.stcell2box1{float:left;
+     font-size:3.5vmin;
+     padding-left:10vmin;
+     padding-right:10vmin;
+     font-weight:bold;}
+.stcell2box2{float:left;
+     padding-right:10vmin;}
+.stcell2top{font-weight:bold;
+    font-size:2.8vmin;}
+.stcell2bot{font-size:2.5vmin;}
+.stcell3box{overflow:hidden;
+    padding-top:3vmin;
+    padding-bottom:3vmin;}
+.stcell3head{float:left;
+     font-size:6vmin;
+     padding-left:10vmin;
+     padding-right:10vmin;
+     padding-top:10vmin;}
+.stembn{width:68%;
+padding-right:10vmin;}
+.bn{padding-left:60vmin;
+font-size:5vmin;
+color:Purple;
+font-weight:bold;}
+.bnli{padding-left:75vmin;
+font-size:2.8vmin;
+padding-bottom:3vmin;}
+
+/*NK CELL*/
+.nkimg{width:100vw;}
+.nkn{width:100vw;
+     padding-top:1.5vh;}
+.nkcells1box{background-image:url(data/ank.png);
+             width:100vw;
+             padding-top:10vh;
+             padding-bottom:10vh;
+             padding-left:10vw;
+             background-size:cover;}
+.nkcells1head{font-size:1.7vw;
+color: white;}
+.nkcells1top{font-weight:bold;
+             font-size:3vw;
+             padding-bottom:1vh;
+            color: white;}
+.nkcells1bot{width:33vw;
+             height:11vh;
+             padding:1vmin;
+             font-size:1.3vw;
+            color: white;}
+.nkcells2box{overflow:hidden;
+             padding-top:2.5vh;
+             padding-bottom:2.5vh;
+             padding-left:10vw;
+             padding-right:10vw;}
+.nkcells2head{font-size:2.5vw;
+              float:left;
+              padding-top:2vh;
+              font-weight: bold;}
+.nkcells2top{padding-left:25vw;
+             font-size:1.3vw;}
+.nkcells3box{overflow:hidden;
+             padding-left:10vw;
+             padding-right:10vw;
+             padding-top:2.5vh;
+             padding-bottom:2.5vh;}
+.nkcells3head{float:left;
+              padding-right:10vw;
+              font-size:2.5vw;
+              padding-top:5vh;
+            font-weight: bold;}
+.nkimg{width:50vw;
+       height:50vh;}
+.nkcells4box{padding-top:2.5vh;
+             padding-bottom:2.5vh;
+             padding-left:30vw;
+            }
+.nkcells4head{font-size:2.3vw;
+              color:#660099;
+              font-weight:bold;}
+.nkcells4top{font-size:1.3vw;}
+
+
+/* Contact */
+
+/* Contact Information */
+
+.contact-information {
+	margin-top: 140px;
+	margin-bottom: 80px;
+}
+
+.contact-information .contact-item {
+	padding: 60px 30px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.contact-information .contact-item i {
+	color: darkred;
+	font-size: 48px;
+	margin-bottom: 40px;
+}
+
+.contact-information .contact-item h4 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+	margin-bottom: 15px;
+}
+
+.contact-information .contact-item p {
+	margin-bottom: 20px;
+}
+
+.contact-information .contact-item a {
+	font-weight: 600;
+	color: darkred;
+	font-size: 15px;
+}
+
+.contact-head{
+    padding-top: 120px;
+    text-align: center;
+}
